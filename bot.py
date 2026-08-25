@@ -19,7 +19,7 @@ from telegram.ext import (
 
 # ── Config ──────────────────────────────────────────────────────────────────
 BOT_TOKEN  = os.environ["BOT_TOKEN"]
-WEBAPP_URL = "https://your-domain.com/partners/index.html"   # host the webapp folder
+WEBAPP_URL = "https://caps-partners.netlify.app/"   # host the webapp folder
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(message)s",
