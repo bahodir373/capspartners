@@ -3,6 +3,7 @@ Central Asia Power Solutions — Telegram Bot
 """
 
 import logging
+import os
 from telegram import (
     Update,
     InlineKeyboardButton,
@@ -17,7 +18,7 @@ from telegram.ext import (
 )
 
 # ── Config ──────────────────────────────────────────────────────────────────
-BOT_TOKEN  = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN  = os.environ["BOT_TOKEN"]
 WEBAPP_URL = "https://your-domain.com/partners/index.html"   # host the webapp folder
 
 logging.basicConfig(
